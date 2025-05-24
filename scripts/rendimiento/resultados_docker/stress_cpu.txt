@@ -1,0 +1,17 @@
+=== SALIDA DE LA PRUEBA stress_cpu ===
+
+stress: info: [102] dispatching hogs: 2 cpu, 0 io, 0 vm, 0 hdd
+stress: info: [102] successful run completed in 10s
+
+
+=== MONITOREO DE RECURSOS ===
+17:55:47 - CPU: 12.5% | MEM: 693.38 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:48 - CPU: 12.5% | MEM: 693.38 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:49 - CPU: 12.6% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:50 - CPU: 12.5% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:51 - CPU: 12.5% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:52 - CPU: 12.5% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:53 - CPU: 12.5% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:54 - CPU: 12.5% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:55 - CPU: 12.8% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:56 - CPU: 12.2% | MEM: 695.36 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB

@@ -1,0 +1,46 @@
+=== SALIDA DE LA PRUEBA sysbench_cpu ===
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 20000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:   619.50
+
+General statistics:
+    total time:                          10.0014s
+    total number of events:              6197
+
+Latency (ms):
+         min:                                    1.51
+         avg:                                    1.61
+         max:                                   10.11
+         95th percentile:                        1.76
+         sum:                                 9978.51
+
+Threads fairness:
+    events (avg/stddev):           6197.0000/0.00
+    execution time (avg/stddev):   9.9785/0.00
+
+
+
+=== MONITOREO DE RECURSOS ===
+17:55:37 - CPU: 6.3% | MEM: 695.02 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:38 - CPU: 6.3% | MEM: 697.00 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:39 - CPU: 6.3% | MEM: 695.45 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:40 - CPU: 6.2% | MEM: 695.45 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:41 - CPU: 6.2% | MEM: 695.45 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:42 - CPU: 6.8% | MEM: 693.63 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:43 - CPU: 6.4% | MEM: 693.63 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:44 - CPU: 6.2% | MEM: 693.63 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:45 - CPU: 6.2% | MEM: 693.63 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB
+17:55:46 - CPU: 6.2% | MEM: 693.41 MB | DISK: 14.41 GB | NET↑: 0.00 MB | NET↓: 0.00 MB

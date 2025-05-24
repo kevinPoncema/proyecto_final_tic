@@ -1,0 +1,24 @@
+=== SALIDA DE LA PRUEBA iperf3_client ===
+
+Connecting to host localhost, port 5201
+[  5] local ::1 port 58408 connected to ::1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  2.71 GBytes  23.2 Gbits/sec    0   2.12 MBytes       
+[  5]   1.00-2.00   sec  3.00 GBytes  25.8 Gbits/sec    0   2.62 MBytes       
+[  5]   2.00-3.00   sec  2.84 GBytes  24.4 Gbits/sec    0   3.06 MBytes       
+[  5]   3.00-4.00   sec  3.04 GBytes  26.1 Gbits/sec    1   3.06 MBytes       
+[  5]   4.00-5.00   sec  3.07 GBytes  26.4 Gbits/sec    0   3.06 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec  14.7 GBytes  25.2 Gbits/sec    1             sender
+[  5]   0.00-5.00   sec  14.7 GBytes  25.2 Gbits/sec                  receiver
+
+iperf Done.
+
+
+=== MONITOREO DE RECURSOS ===
+17:56:06 - CPU: 10.2% | MEM: 698.71 MB | DISK: 15.41 GB | NET↑: 2767.57 MB | NET↓: 2768.39 MB
+17:56:07 - CPU: 10.5% | MEM: 699.51 MB | DISK: 15.41 GB | NET↑: 5853.69 MB | NET↓: 5854.06 MB
+17:56:08 - CPU: 9.8% | MEM: 701.95 MB | DISK: 15.41 GB | NET↑: 8771.74 MB | NET↓: 8772.44 MB
+17:56:09 - CPU: 10.4% | MEM: 700.80 MB | DISK: 15.41 GB | NET↑: 11897.85 MB | NET↓: 11898.41 MB
+17:56:10 - CPU: 9.6% | MEM: 700.76 MB | DISK: 15.41 GB | NET↑: 15043.37 MB | NET↓: 15043.37 MB

@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  mysql_benchmark:
+    image: mysql:8.0
+    container_name: mysql_benchmark
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: persona
+    ports:
+      - "3307:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-ppassword"]
+      interval: 5s
+      retries: 10
+    networks:
+      - benchmark_net
+
+  mysql_tester:
+    build:
+      context: ../..
+      dockerfile: scripts/prueba app/Dockerfile
+    container_name: mysql_tester
+    depends_on:
+      mysql_benchmark:
+        condition: service_healthy
+    environment:
+      MYSQL_HOST: mysql_benchmark
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: persona
+    ports:
+      - "8888:8888"            # expone el puerto Jupyter al host
+    networks:
+      - benchmark_net
+    volumes:
+     - ../../notebooks:/app/notebooks  # monta la carpeta notebooks en /app dentro del contenedor
+    tty: true
+
+networks:
+  benchmark_net:

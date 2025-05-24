@@ -1,0 +1,11 @@
+services:
+  benchmark_rendimiento:
+    build:
+      context: ../..                     # raíz del proyecto
+      dockerfile: scripts/rendimiento/Dockerfile
+    container_name: pruebas_rendimiento
+    ports:
+      - "8888:8888"                     # expone el puerto 8888 del contenedor al host
+    volumes:
+      - ../../notebooks:/app            # monta la carpeta notebooks en /app
+    tty: true
